@@ -14,6 +14,7 @@ def search():
 def search_users(**kwargs):
 
     output_list = []
+    
     if len(kwargs) < 1:
         print(USERS)
 
